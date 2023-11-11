@@ -6,7 +6,7 @@ Trabalho da disciplina de Práticas de Implementação e Evolução de Software,
 
 Plataforma que possibilita às famílias registrarem seus ganhos e gastos, visando a análise detalhada de suas despesas e, consequentemente, aprimorar o planejamento financeiro. Essa ferramenta permitirá que o usuário crie um Plano de Contas personalizado para categorizar todas as transações efetuadas. Além disso, é fundamental incluir relatórios de despesas, facilitando uma avaliação minuciosa da situação financeira.
 
-## Sobre a Arquitetura do Projeto
+## Arquitetura
 
  ![Arquitetura My Finance](/MyFinanceWeb-ModelagemArquitetural.png)
 
