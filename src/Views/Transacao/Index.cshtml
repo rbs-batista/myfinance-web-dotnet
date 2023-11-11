@@ -1,29 +1,33 @@
 ﻿@* razor dotnet *@
 
 @{
-    ViewData["Title"] = "Listagem de plano de contas";
+    ViewData["Title"] = "Listagem de Transações";
 }
 
 <h1>@ViewData["Title"]</h1>
 
-<button type="button" class="btn btn-block btn-primary" onclick="Adicionar()">Novo</button>
+<button type="button" class="btn btn-block btn-primary" onclick="Registrar()">Registrar</button>
 <br/><br/>
 
 <table class="table table-bordered">
     <tr>
         <th>Id</th>
-        <th>Descrição</th>
+        <th>Histórico</th>
         <th>Tipo</th>
+        <th>Valor</th>
+        <th>Data</th>
         <th>#</th>
         <th>#</th>
     </tr>
 
     @{
-        foreach (var item in (List<PlanoContaModel>)ViewBag.ListItems) {
+        foreach (var item in (List<TransacaoModel>)ViewBag.ListItems) {
             <tr>
                 <td>@item.Id</td>
-                <td>@item.Descricao</td>
+                <td>@item.Historico</td>
                 <td>@item.Tipo</td>
+                <td>@item.Valor</td>
+                <td>@item.Data</td>
                 <td><button type="button" class="btn btn-block btn-outline-warning" onclick="Editar(@item.Id.ToString())">Editar</button></td>
                 <td><button type="button" class="btn btn-block btn-outline-danger" onclick="Excluir(@item.Id.ToString())">Excluir</button></td>
             </tr>
@@ -32,8 +36,8 @@
 </table>
 
 <script>
-    function Adicionar() {
-        console.log("Adicionar: ");
+    function Registrar() {
+        console.log("Registrar: ");
         window.location.href = "./Cadastro"
     }
     function Editar(id) {

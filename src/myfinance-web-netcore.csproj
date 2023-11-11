@@ -4,7 +4,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>myfinance_web_netcore</RootNamespace>    <!-- src -->
+    <RootNamespace>myfinance_web_netcore</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
