@@ -1,4 +1,4 @@
-# My Finance Web Dotnet
+# My Finance Web
 
 Trabalho da disciplina de Práticas de Implementação e Evolução de Software, pertencente ao curso de Pós-Graduação em Engenharia de Software na PUCMG.
 
