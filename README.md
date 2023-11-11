@@ -37,7 +37,7 @@ Plataforma que possibilita às famílias registrarem seus ganhos e gastos, visan
 
 ## Instalação
    
-1. Clone o repositório do projeto dentro da pasta src:
+1. Clone o repositório do projeto:
 
    ```
    git clone https://github.com/rbs-batista/myfinance-web-dotnet.git
