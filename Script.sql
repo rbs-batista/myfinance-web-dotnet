@@ -28,7 +28,7 @@ INSERT INTO planoconta (descricao, tipo) values ('Combustível', 'D');
 INSERT INTO planoconta (descricao, tipo) values ('Plano de saúde', 'D');
 
 INSERT INTO planoconta (descricao, tipo) values ('Salário', 'R');
-INSERT INTO planoconta (descricao, tipo) values ('Juros capital próprio', 'R');
+INSERT INTO planoconta (descricao, tipo) values ('Aluguel', 'R');
 INSERT INTO planoconta (descricao, tipo) values ('Dividendos', 'R');
 
 
